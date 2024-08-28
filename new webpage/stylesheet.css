@@ -1,0 +1,120 @@
+.div1 a {
+    text-decoration: none;
+    text-align: center;
+    padding: 3%;
+    color: white;
+}
+.div1 {
+    /* border: 2px solid gray; */
+    text-align: center;
+    padding: 1%;
+    margin: 2%;
+    width: 50%;
+    position: relative;
+    left: 250px;
+    background-color: gray;
+    border-radius: 50px;
+    box-shadow: 0 0 5px 10px gray, 0 0 5px 12px black;
+
+}
+.div1 a:hover {
+    border: 1px solid white;
+    padding: 10px;
+    background-color: white;
+    color: blue;
+    border-radius: 50px;
+    /* text-decoration: underline black; */
+    text-shadow: 2px 2px 10px blue;
+    font-family: 'Times New Roman', Times, serif;
+    text-transform: uppercase;    
+}
+/* .div2 {
+    border: 2px solid black;
+
+} */
+hr {
+    border: 2px solid black;
+}
+.div2 {
+    text-align: center;
+    position: relative;
+    top: 120px;
+    /* border: 2px solid black; */
+    height: 400px;
+    
+}
+.image {
+    vertical-align: bottom;
+}
+.form1 {
+    float: right;
+    position: relative;
+    right: 21%;
+    /* border: 2px solid black; */
+    height: 400px;
+    width: 350px;
+    background: linear-gradient(240deg,blue,white,rgb(8, 93, 203));
+}
+.div3 {
+    float: left;
+    position: relative;
+    left: 21%;
+    width: 300px;
+    text-align: center;
+    padding-top: 80px;
+    /* border: 2px solid black; */
+    height: 320px;
+    background: linear-gradient(120deg,blue,white,rgb(8, 93, 203));
+}
+.Login {
+    width: 25%;
+    height: 10%;
+    border-radius: 50px;
+    color: white;
+    background-color: rgb(27, 88, 221);
+    font-size: medium;
+}
+.Login:hover {
+    background-color: white;
+    color: blue;
+}
+.SignUP:hover {
+    background-color: white;
+    color: blue;
+}
+.SignUP {
+    text-decoration: none;
+    color: white;
+    width: 25%;
+    height: 10%;
+}
+body {
+    background-color: rgb(30, 30, 235);
+}
+.div4 {
+    text-align: center;
+    position: relative;
+    top: 120px;
+    /* border: 2px solid black; */
+    height: 400px;
+}
+.div5 {
+    float: left;
+    position: relative;
+    left: 21%;
+    width: 300px;
+    text-align: center;
+    padding-top: 80px;
+    /* border: 2px solid black; */
+    height: 320px;
+    background: linear-gradient(240deg,blue,white,rgb(8, 93, 203));
+}
+.form2 {
+    float: left;
+    position: relative;
+    left: 21%;
+    /* border: 2px solid black; */
+    height: 400px;
+    width: 350px;
+    background: linear-gradient(120deg,blue,white,rgb(8, 93, 203));
+}
