@@ -1,0 +1,184 @@
+.imagebar {
+    /* border: 2px solid black; */
+    padding: 5px 40px 5px 20px;
+    width: 98%;
+    text-align: center;
+    margin: 0px;
+}
+.logo1 {
+    /* border: 1px solid black; */
+    position: relative;
+    height: 60px;
+    bottom: 8px;
+    border-radius: 10px;
+    box-shadow: 2px 0.5px 1px gray;
+    margin-left: 20px;
+}
+.logo1:hover {
+    box-shadow: 2px 0.5px 1px red;
+}
+.redbar{
+    float: left;
+    background-color: red;
+    /* margin: 0;
+    padding: 0; */
+    height: 50px;
+    border-radius: 20px;
+}
+.button {
+    float: left;
+    list-style: none;
+}
+.button button {
+    position: relative;
+    bottom: 5px;
+    padding: 5px 8px;
+    margin-left: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: blue;
+    font-weight: bold;
+}
+.button li {
+    float: left;
+}
+.scrool {
+    list-style: none;
+    text-align: center;
+}
+.scrool li {
+    float: left;
+}
+.scrool marquee {
+    color: white;
+    width: 61%;
+    float: right;
+    position: relative;
+    bottom: 27px;
+    /* right: 10px; */
+    font-weight: bold;
+}
+.a1 {
+    /* padding-left: 10px; */
+    border: 2px solid black;
+    margin-left: 10px;
+    padding: 2px ;
+    position: relative;
+    bottom: 3px;
+    color: blue;
+    font-weight: bold;
+    background-color: whitesmoke;
+    border-radius: 10px 0px 0px 10px;
+}
+.navbar {
+    text-decoration: none;
+    padding: 14px 20px;
+    /* border: 2px solid black; */
+}
+.navbar a {
+    padding: 10px;
+    text-decoration: none;
+    color: black;
+    font-weight: bolder;
+}
+.navbar a:hover {
+    background-color: blue;
+    color: whitesmoke;
+    font-weight: bold;
+    border-radius: 20px;
+}
+.register {
+    border:  2px solid black;
+    /* text-align: center; */
+    width: 40%;
+    position: relative;
+    left: 30%;
+    padding: 20px 50px;
+    background-color: aquamarine;
+    border-radius: 20px ;
+}
+.register form {
+    position: relative;
+    left: 20%;
+}
+.ads {
+    position: relative;
+    bottom: 50px;
+}
+.b1 {
+    padding: 12px 18px;
+    border-radius: 20px;
+    color: blue;
+    background-color: whitesmoke;
+    font-weight: bolder;
+    position: relative;
+    left: 20%;
+}
+.b1:hover {
+    background-color: black;
+    color: whitesmoke;
+}
+.register h2 {
+    color: red;
+    text-shadow: 3px 0px 4px red,3px 0px 2px black; 
+    position: relative;
+    left: 10%;
+}
+.register h3 {
+    color: black;
+    text-shadow: 5px 0px 5px whitesmoke,3px 0px 1px gray; 
+    position: relative;
+    left: 20%;
+}
+.register textarea {
+    /* border: 2px solid black; */
+    border-radius: 10px;
+    font-weight: bold;
+    margin-top: 5px;
+    padding: 10px;
+    text-decoration: underline;
+}
+.login {
+    /* border: 2px solid black; */
+    height: 400px;
+    width: 100%;
+    font-weight: bolder;
+}
+.left {
+    float: left;
+    width: 20%;
+    border: 2px solid black;
+    position: relative;
+    /* top: 20%; */
+    left: 27%;
+    padding: 80px 0px;
+    text-align: center;
+    height: 240px;
+    color: blue;
+}
+.right {
+    float: right;
+    width: 30%;
+    border: 2px solid black;
+    position: relative;
+    /* top: 20%; */
+    right: 23%;
+    padding: 40px 0px;
+    text-align: center;
+    height: 320px;
+    background-color: rgb(5, 177, 244);
+    color: white;
+}
+.b2 {
+    padding: 12px 18px;
+    border-radius: 20px;
+    color: blue;
+    background-color: whitesmoke;
+    font-weight: bolder;
+    position: relative;
+    /* left: 10%; */
+}
+.b2:hover {
+    background-color: black;
+    color: whitesmoke;
+}
