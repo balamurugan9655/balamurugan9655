@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .navbar {
+            border: 2px solid black;
+            display: flex;
+            justify-content: center;
+            width: 100%;
+        }
+        ul {
+            width: fit-content;
+            border: 2px solid black;
+            display: flex;
+            padding: 10px;
+            text-align: center;
+            justify-content: center;
+            list-style-type: none;
+        }
+        li {
+            padding: 14px 20px;
+        }
+        ul li:hover {
+            background-color: aqua;
+            cursor: pointer;
+        }
+        a {
+            text-decoration: none;
+        }
+        @media screen and (max-width:600px) {
+            .navbar {
+                /* display: flex; */
+                border: 2px solid black;
+                justify-content: start;
+                float: left;
+                width: fit-content;
+                /* height: 100%; */
+                position: fixed;
+            }
+            ul {
+                display: block;
+                margin: 0;
+                padding: 0;
+                overflow: hidden;
+                justify-content: center;
+            }
+            h1 {
+                /* float: right; */
+                padding-left: 50%;
+            }
+            .contant {
+                width: 60%;
+                margin-left: 30%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <ul>
+            <li><a href="home.html">home</a></li>
+            <li><a href="about.html">about</a></li>
+            <li><a href="">location</a></li>
+            <li><a href="">contact</a></li>
+            <li><a href="">login</a></li>
+        </ul>
+    </div>
+    <h1 class="home">home page</h1>
+    <div class="contant">
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minima fugiat dolorum et voluptate consectetur repudiandae aliquid labore nisi id impedit obcaecati a sequi, cum molestias reiciendis? Earum cupiditate vitae eius quis nulla sapiente, consequuntur iure repellat illo accusantium distinctio! Fuga nihil eligendi atque mollitia animi, ad, omnis rem adipisci deserunt repellat ipsam voluptas. Incidunt beatae corporis, dolorem impedit similique labore et aliquid facere delectus ratione. Placeat, nulla. Nostrum nulla nesciunt quos aliquam omnis ad mollitia error at quo voluptas placeat, corporis suscipit repellendus veniam. Dolorum molestiae maiores ipsa fugit distinctio, praesentium a perspiciatis pariatur magnam laudantium velit rem asperiores necessitatibus?
+    </div>
+</body>
+</html>
