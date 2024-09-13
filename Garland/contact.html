@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Garland</title>
+    <link rel="icon" href="image/icon3.png">
+    <link rel="stylesheet" href="stylesheet.css">
+    <style>
+        .example {
+            -webkit-mask-image: url(image/icon\ 1.png);
+            -webkit-mask-position: 100% 100%;
+            -webkit-mask-size: cover;
+            -webkit-mask-repeat: no-repeat;
+            mask-image: url(image/icon\ 1.png);
+            mask-position: 100% 100%;
+            mask-size: cover;
+            mask-repeat: no-repeat;
+            object-fit:cover;
+            width: 800px;
+            height: 900px;
+            margin-left: 20%;
+        }
+        header>h1 {
+            -webkit-box-reflect: right 5px;
+        }
+        @media screen {
+            .main {
+                background-color: lightgreen;
+            }
+        }
+        @media print {
+            .main {
+                background-color: lightcoral;
+            }
+            header>h1 {
+                color: blue;
+                -webkit-box-reflect:left 50px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Garland Shop</h1>
+        <nav class="navbar">
+            <a href="home.html">Home</a>
+            <a href="#products">Products</a>
+            <a href="#decorations">Decorations</a>
+            <a href="">Contacts</a>
+            <a href="#about">About</a>
+        </nav>
+        <a href=""><img src="image/login.png" alt="image" width="60%"></a>
+    </header>
+    <br><br><br><br><br><br>
+    <main class="main">
+        <div class="example">
+            <img src="image/logo.jpg" alt="image">
+        </div>
+    </main>
+</body>

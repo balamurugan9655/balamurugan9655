@@ -1,0 +1,329 @@
+/* universal selector */
+* {
+    box-sizing: border-box;
+}
+/* header start */
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: 2px solid black;
+    background: linear-gradient(white,rgb(234, 6, 241));
+    border-radius: 50px;
+    width: 100%;
+    animation-name: header;
+    animation-duration: 5s;
+}
+    /* opacity animation code */
+@keyframes header {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+/* logo */
+header h1 {
+    padding: 0% 2%;
+    font-size: x-large;
+    background-size: 100%;
+    color: rgb(255, 6, 18);
+    text-shadow: 0px 0px 1px black, 0px 0px 10px whitesmoke;
+    width: fit-content;
+    /* animation start */
+    animation-name: header;
+    animation-duration: 5s;
+    animation-delay: 1s;
+    animation-direction: alternate;
+    opacity: 0;
+    animation-fill-mode: forwards;
+    /* animation end */
+}
+/* navbar start */
+.navbar {
+    width: fit-content;
+}
+.navbar a {
+    text-decoration: none;
+    padding: 12px 20px;
+    color: blue;
+    font-weight: bolder;
+    /* animation start */
+    animation-name: header;
+    animation-duration: 5s;
+    animation-delay: 1s;
+    animation-direction: alternate;
+    animation-fill-mode: forwards;
+    opacity: 0;
+    /* animation end */
+}
+    /* navbar hover effect */
+.navbar a:hover {
+    font-size: 1.2rem;
+    background-color: white;
+    border-radius: 50px;
+    padding: 10px ;
+    color: red;
+}
+    /* navbar active effect */
+.navbar a:active {
+    color: green;
+}
+/* navbar end */
+.login {
+    /* animation start */
+    animation-name: header;
+    animation-duration: 5s;
+    animation-delay: 1s;
+    animation-direction: alternate;
+    animation-fill-mode: forwards;
+    opacity: 0;
+    /* animation end */
+}
+/* header end*/
+
+/* page 1  start*/
+.page1 {
+    border: 2px solid black;
+    text-align: center;
+    padding: 200px 20px;
+    background-image: url(image/page\ 1\ bgimage.jpg);
+    background-size: cover; 
+    background-position:center;
+    background-repeat: no-repeat;
+    border-radius: 50px;
+    /* animation start */
+    animation-name: header;
+    animation-duration: 5s;
+    animation-delay: 0s;
+    animation-direction: alternate;
+    animation-fill-mode: forwards;
+    opacity: 0;
+    /* animation end */
+}
+.page1 h2 {
+    width: 40%;
+    color: whitesmoke;
+    padding: 20px;
+    text-shadow: 0px 0px 10px rgb(0, 47, 255);
+    background-color: rgba(0, 0, 0, 0.39);
+    border-radius: 50px;
+    /* animation start */
+    animation-name: letter;
+    animation-duration: 5s;
+    /* animation end */
+}
+    /* letter right to left animation code */
+@keyframes letter {
+    from {
+        transform: translateX(-500px);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0px),translateY(20px);
+        opacity: 1;
+    }
+}
+/* page 1 end */
+
+/* page 2 start */
+.products h1 {
+    text-align: center;
+    font-size: 2rem;
+}
+.page2 {
+    display: flex;
+    margin: 3px;
+    padding: 5px;
+    justify-content: center;
+}
+.page2>div {
+    border: 2px solid black;
+    margin: 10px;
+    padding: 15% 5%;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 1.5rem;
+    border-radius: 50px;
+    color: whitesmoke;
+    text-shadow: 0px 0px 5px black, 0px 0px 10px black;
+}
+.img1 {
+    background-image: url(image/Floral\ Garlands.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.img2 {
+    background-image: url(image/Leaf\ Garlands.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.img3 {
+    background-image: url(image/Threaded\ Garlands.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.img4 {
+    background-image: url(image/Beaded\ Garlands.jpg);
+    background-size: cover;
+    background-position: left;
+}
+/* page 2 end */
+
+/* page 3 start */
+.decorations h1 {
+    text-align: center;
+    font-size: 2rem;
+}
+.page3 {
+    display: flex;
+}
+.page3>img {
+    justify-content: center;
+    justify-items: center;
+    padding: 10px;
+    width: 25%;
+    border-radius: 40px;
+    animation-name: move;
+    animation-duration: 3s;
+    animation-direction: alternate;
+    animation-timing-function: ease;
+    animation-iteration-count: infinite;
+    transform: translateY(-20px);
+}
+    /* moving animation code */
+@keyframes move {
+    from {
+        box-shadow: 0px 0px 5px , 0px 0px 10px black;
+        
+    }
+    to {
+        transform: translateY(50px);
+    }
+}
+    /* one by one image call using (nth-child) */
+.page3>img:nth-child(1) {
+    animation-delay: 0s;
+}
+.page3>img:nth-child(2) {
+    animation-delay: 1.5s;
+}
+.page3>img:nth-child(3) {
+    animation-delay: 3s;
+}
+.page3>img:nth-child(4) {
+    animation-delay: 4.5s;
+}
+/* page 3 end */
+
+/* about page start */
+.about {
+    background-color: rgb(255, 8, 0);
+    padding: 20px 50px;
+    background: linear-gradient(white,rgb(255, 72, 0));
+}
+.about>h4 {
+    color: red;
+}
+.about>address>p {
+    width: 10%;
+    font-weight: bolder;
+    margin: 40px;
+    color: black;
+}
+/* about page end */
+
+/* @media screen code start*/
+    /* screen using tablet */
+@media screen and (max-width:768px) {
+    header h1 {
+        padding: 0px 10px;
+        font-size: medium;
+    }
+     .page2>div {
+        padding: 50px 20px;
+        font-size: 1rem;
+     }
+     .about {
+        padding: 10px 25px;
+     }
+     .about>address>p {
+        width: 20%;
+     }
+}
+    /* screen using phone */
+@media screen and (max-width:690px) {
+    header {
+        display: inline-block;
+        text-align: center;
+        background: none;
+        border: none;
+        background-color: lightgray;
+        border-radius: 0px;
+    }
+    header>h1 {
+        text-align: center;
+        width: 100%;
+        background-color: lightgreen;
+        padding: 10px 5px;
+    }
+    .navbar {
+        float: left;
+        width: 80%;
+        padding: 10px 0px;
+        font-size: small;
+    }
+    .navbar a {
+        padding: 4px 5px;
+        text-align: center;
+        font-size: 1rem;
+    }
+    header>a {
+        float: right;
+        width: 20%;
+        height: fit-content;
+    }
+    header>a>img {
+        width: 25%;
+    }
+    .page1 {
+        margin: 2px;
+        border-radius: 0px;
+    }
+    .page2 {
+        display: block;
+    }
+    .page2>div {
+        width: 100%;
+        background-repeat: no-repeat;
+        border: none;
+        margin: 10px;
+        padding: 100px 10px;
+        font-size: 1rem;
+        border-radius: 0px;
+        color: red;
+        text-shadow: 0px 0px 5px black,0px 0px 10px black;
+        background-size: cover;
+     }
+     .page3 {
+        flex-wrap: wrap;
+     }
+     .page3>img {
+        width: 100%;
+     }
+     .about {
+        padding: 2px 10px;
+        padding-bottom: 20px;
+     }
+     .about>h4 {
+        padding: 0px 0px;
+     }
+     .about>address>p {
+        width: 50%;
+        margin: 0px 20px;
+     }
+}
+/* @media screen code end */
+
+        /* end */
