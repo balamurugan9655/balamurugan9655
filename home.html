@@ -3,74 +3,92 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <style>
-        .navbar {
-            border: 2px solid black;
-            display: flex;
-            justify-content: center;
-            width: 100%;
-        }
-        ul {
-            width: fit-content;
-            border: 2px solid black;
-            display: flex;
-            padding: 10px;
-            text-align: center;
-            justify-content: center;
-            list-style-type: none;
-        }
-        li {
-            padding: 14px 20px;
-        }
-        ul li:hover {
-            background-color: aqua;
-            cursor: pointer;
-        }
-        a {
-            text-decoration: none;
-        }
-        @media screen and (max-width:600px) {
-            .navbar {
-                /* display: flex; */
-                border: 2px solid black;
-                justify-content: start;
-                float: left;
-                width: fit-content;
-                /* height: 100%; */
-                position: fixed;
-            }
-            ul {
-                display: block;
-                margin: 0;
-                padding: 0;
-                overflow: hidden;
-                justify-content: center;
-            }
-            h1 {
-                /* float: right; */
-                padding-left: 50%;
-            }
-            .contant {
-                width: 60%;
-                margin-left: 30%;
-            }
-        }
-    </style>
+    <title>boostrap</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </head>
-<body>
-    <div class="navbar">
-        <ul>
-            <li><a href="home.html">home</a></li>
-            <li><a href="about.html">about</a></li>
-            <li><a href="">location</a></li>
-            <li><a href="">contact</a></li>
-            <li><a href="">login</a></li>
-        </ul>
+<body class="container max-auto">
+    <h1 style="text-align: center;">Boostrap</h1>
+    <!-- gride system -->
+    <div class="container-fluide">
+        <div class="row">
+            <div class="col-md-12 col-sm-12 col-lg-12 col-xl-12">
+                <h1 class="bg-info">heading</h1>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6 col-sm-8 col-lg-4 col-xl-2">
+                <h1 class="bg-primary">heading</h1>
+            </div>
+            <div class="col-md-6 col-sm-4 col-lg-8 col-xl-8">
+                <h1 class="bg-secondary">heading</h1>
+            </div>
+        </div>
     </div>
-    <h1 class="home">home page</h1>
-    <div class="contant">
-        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minima fugiat dolorum et voluptate consectetur repudiandae aliquid labore nisi id impedit obcaecati a sequi, cum molestias reiciendis? Earum cupiditate vitae eius quis nulla sapiente, consequuntur iure repellat illo accusantium distinctio! Fuga nihil eligendi atque mollitia animi, ad, omnis rem adipisci deserunt repellat ipsam voluptas. Incidunt beatae corporis, dolorem impedit similique labore et aliquid facere delectus ratione. Placeat, nulla. Nostrum nulla nesciunt quos aliquam omnis ad mollitia error at quo voluptas placeat, corporis suscipit repellendus veniam. Dolorum molestiae maiores ipsa fugit distinctio, praesentium a perspiciatis pariatur magnam laudantium velit rem asperiores necessitatibus?
+    <hr>
+    <!-- table & button -->
+     <table class="table table-primary table-bordered table-hover text-center container">
+        <tr>
+            <th>s.no</th>
+            <th>name</th>
+            <th>price</th>
+            <th>add</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>apple</td>
+            <td>125</td>
+            <td><button class="btn btn-link">click here</button></td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>apple2</td>
+            <td>120</td>
+            <td><button class="btn rounded-fluid">click here</button></td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>apple3</td>
+            <td>150</td>
+            <td><button class="btn btn-primary">click here</button></td>
+        </tr>
+     </table>
+     <!-- image -->
+    <div class="bg-info">
+      <img src="image/underwater ride 1.jpg" alt="img" class="img img-thumbnail" width="50%" height="50%">
     </div>
+    <br><hr>
+    <!-- jumbotron tool -->
+     <div class="mt-2 bg-success p-2 text-white rounded max-auto">
+        <h1>heading</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum, aut?</p>
+     </div>
+     <br>
+     <hr>
+     <!-- alert -->
+      <div class="alert alert-danger">
+        <strong>success !! </strong>
+        login success
+      </div>
+     <br>
+     <hr>
+     <!-- alert-dismissible -->
+      <div class="alert alert-danger">
+        <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+        <strong>success !! </strong>
+        login success
+      </div>
+      <br><hr>
+    <!-- button group -->
+     <div class="btn-group">
+        <button type="button" class="btn btn-primary">primary</button>
+        <button type="button" class="btn btn-primary">primary</button>
+        <button type="button" class="btn btn-primary">primary</button>
+     </div>
+     <br>
+     <hr>
+    <!-- badge -->
+     <button class="btn btn-primary"> messae <span class="badge bg-danger">4</span></button>
+     <h1>heading <span class="badge bg-success">2</span></h1>
 </body>
 </html>
