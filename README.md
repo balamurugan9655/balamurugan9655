@@ -1,4 +1,4 @@
-![MasterHead](https:/github.com/balamurugan9655/balamurugan9655/blob/main/home-gif.gif)
+<img src="home-gif.gif" alt="MasterHead" width="1020" height="450">
 
 <h1 align="center">Hi 👋, I'm Balamurugan</h1>
 <h3 align="center">Full Stack Developer</h3>
